@@ -1,0 +1,15 @@
+HOMEFIX FIXED PRODUCTION BUILD - QA & STRESS TEST REPORT
+========================================================
+HTML size (with inlined CSS): 60,390 bytes
+Inlined CSS size: 17,874 bytes
+Deferred JS size (app.c045303752.js): 2,787 bytes
+Total asset files in assets/: 70
+Total referenced assets: 70
+Unreferenced assets: 0
+Render-blocking CSS requests: 0
+Moto G Power (412px @ 1.75x) bundle selected: six-ebook-bundle-480.9533e0ac12.webp (480w, 29.6 KiB) [was 800w / 73.8 KiB]
+Moto G Power (412px @ 1.75x) cover selected:  washing-machine-ebook-360.e73b181cc4.webp (360w, 24.5 KiB) [was 640w / 63.8 KiB]
+Moto G Power (412px @ 1.75x) hero selected:   technician-hero-720.1454f5c6b4.webp (720w, 48.3 KiB)
+Average image re-encode PSNR: 35.49 dB (min 30.12 dB)
+Contrast checks passed: 8/8 (all >= 4.5:1 WCAG AA)
+Errors found: 0

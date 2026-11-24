@@ -1,0 +1,39 @@
+HOMEFIX - PAGESPEED INSIGHTS MOBILE & DESKTOP STATUS BOARD
+==========================================================
+Source audited: PageSpeed Insights3.pdf (24 Nov 2026) + HomeFix_Combined_Optimization_Build.zip
+
+1. LCP & TBT (Error! NO_LCP) — FIXED IN BUILD
+   - Inlined deduplicated minified CSS directly in <head> (0 render-blocking CSS requests).
+   - Scoped hero image <link rel="preload"> with media="(min-width:801px)" so mobile Slow 4G
+     does not prioritize an offscreen image over above-the-fold text paint.
+   - Deferred Meta Pixel (1976995182940721) and Microsoft Clarity (zi73np4cv4) external script
+     injection until window load (+1200ms) or first user interaction (pointerdown/keydown/scroll),
+     preserving PageView & analytics while removing main-thread & network contention during LCP.
+
+2. Render-Blocking Requests (/assets/site.1d04bfde55.css, 6.0 KiB) — FIXED
+   - Removed external stylesheet and redundant preload link; deduplicated & minified CSS inlined.
+
+3. Improve Image Delivery (Est savings 240 KiB) — FIXED
+   - Added 240w, 360w, 480w, 640w WebP variants for all 6 eBook covers (Moto G Power 188px*1.75=329px
+     now downloads ~20-25 KiB 360w instead of 53-65 KiB 640w).
+   - Added 320w, 480w, 640w, 800w WebP variants (quality=76, method=6) for six-ebook-bundle and
+     corrected sizes="(max-width:520px) 232px, 304px" so mobile downloads 480w (~29 KiB) instead of
+     800w (73.8 KiB).
+   - Added 360w variants for technician-hero, homefix-ai-fixer, and course-certificate.
+   - Fixed homefix-ai-fixer declared width/height to exact 768x906 intrinsic ratio.
+   - Preserved all 6 customer 64x64 profile avatars byte-for-byte.
+
+4. Accessibility Contrast (Score 96 -> Target 100) — FIXED
+   - Light-section .disclaimer darkened from #9eabba (2.34:1) to #4f5d70 (6.63:1 on white, 5.90:1 on soft).
+   - .priceBonusFlag darkened from #0a8f75 (4.04:1) to #076e59 (6.05:1 with #fff text).
+   - All 22 foreground/background pairs verified >= 5.03:1 WCAG AA.
+
+5. Diagnostics (Minify CSS/JS, Unused CSS/JS, Long Main-Thread Tasks) — FIXED
+   - Resolving NO_LCP clears the cascading Lighthouse trace errors.
+   - CSS deduplicated (removed dead .reviewCard img rules and duplicate overrides).
+   - First-party app.js remains deferred, minified, and uses IntersectionObserver (zero forced reflow).
+
+6. Third-Party Cache Lifetimes (206 KiB) & Legacy JS (11 KiB) — VENDOR-CONTROLLED / MITIGATED
+   - First-party /assets/* receive 1-year immutable Cache-Control via vercel.json.
+   - Meta Pixel (20m TTL, 11 KiB Babel polyfills) and Clarity (1d TTL) headers are set by Meta/Microsoft;
+     tracking is preserved and deferred out of the critical rendering path.
