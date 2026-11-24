@@ -1,0 +1,43 @@
+HOMEFIX FINAL BUILD - QA REPORT
+==========================================
+
+HTML size: 42,182 bytes
+CSS size: 20,171 bytes
+JS size: 2,787 bytes
+Asset files: 54
+Asset bytes total: 4,092,930
+Image elements: 29
+Responsive srcset image elements: 22
+
+PASS - one doctype
+PASS - UTF-8 charset declaration within first 1024 bytes
+PASS - single main landmark
+PASS - main closes before footer
+PASS - css asset exists
+PASS - js asset exists
+PASS - CSS parses without errors
+PASS - reported low-contrast color tokens removed
+PASS - JavaScript passes node --check
+PASS - third-party bootstrap scripts pass node --check
+PASS - all local HTML asset references resolve
+PASS - all img elements have width and height
+PASS - all img elements have alt text or decorative empty alt
+PASS - img width/height aspect ratios match selected sources
+PASS - all default image files decode
+PASS - all responsive image variants decode
+PASS - no unreferenced raster assets shipped
+PASS - carousel no offsetLeft/offsetWidth reads
+PASS - carousel uses IntersectionObserver
+PASS - hero uses fetchpriority high
+PASS - responsive image srcsets present
+PASS - hashed asset filenames
+
+Runtime/browser limitation:
+The provided Chromium executable rejected local file and localhost navigation with ERR_BLOCKED_BY_ADMINISTRATOR.
+The web inspection tool also could not access the live Vercel URL. A runtime screenshot, browser-console test,
+and fresh Lighthouse run therefore could not be completed in this environment.
+
+Third-party PageSpeed items retained intentionally:
+- Facebook/Meta Pixel 20-minute cache TTL and 11 KiB legacy-JavaScript transformation are vendor-controlled.
+- Microsoft Clarity 1-day cache TTL is vendor-controlled.
+- Their 206 KiB cache-lifetime estimate cannot be overridden by the website Cache-Control rules.
