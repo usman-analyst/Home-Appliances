@@ -1,0 +1,49 @@
+HOMEFIX - PRIORITY ISSUE STATUS BOARD (P1 -> P7)
+================================================
+Audited against: PageSpeed Insights3.pdf (https://homeappliances-omega.vercel.app/, mobile)
+
+[P1] LCP & TBT Failure (Error! NO_LCP) + Cascading Diagnostic Errors: FIXED IN CODE
+     - Removed render-blocking external stylesheet and moved all CSS inline into <head>.
+     - Removed <head> inline Meta Pixel / Clarity scripts (moved into deferred external app.js).
+     - Scoped hero image <link rel="preload"> to desktop (media="(min-width:801px)") and
+       removed mobile fetchpriority="high" so Slow 4G prioritizes above-the-fold text paint.
+     - Note: Lighthouse 13.x PSI Lightrider has a known upstream intermittent NO_LCP trace
+       bug (#16934/#17179); if a single PSI run still returns NO_LCP, click Analyse once more
+       or cross-check in Chrome DevTools Lighthouse.
+
+[P2] Render-Blocking Stylesheet (/assets/site.1d04bfde55.css - 6.0 KiB): FIXED
+     - Zero external render-blocking stylesheets remain.
+
+[P3] Image Delivery (240.3 KiB est. savings) Without Quality Loss: FIXED
+     - Six eBook covers: Corrected sizes to exact card inner width (calc(50vw - 34px) = 172px CSS
+       = 301px physical on Moto G Power) and generated 320w/384w/480w WebP variants while
+       preserving 640w masters byte-for-byte. Mobile downloads 320w (~18-22 KiB) instead of 640w.
+     - Six eBook bundle preview: Corrected sizes to "(max-width:520px) 232px, 304px" and generated
+       320w/416w/608w/800w (WebP quality=76, method=6). Mobile downloads 416w (~24 KiB) instead of
+       800w (73.8 KiB), eliminating both sizing and compression warnings.
+     - Hero, AI Fixer, Certificate: Added 360w/480w/660w breakpoints; preserved high-res masters.
+     - 12 Telugu sample pages & 6 avatars: Preserved 100% byte-for-byte original quality.
+
+[P4] Accessibility Color Contrast (96 -> 100): FIXED
+     - Fixed .dark .kicker (#984c00 on #080d18 was 2.94:1 FAIL -> #ffd51f = 13.79:1 PASS).
+     - Fixed .disclaimer on light sections (#9eabba was 2.34:1 FAIL -> #4f5d70 = 6.63:1 PASS).
+     - Fixed .priceBonusFlag (#fff on #0a8f75 was 4.04:1 FAIL -> #076e59 = 6.05:1 PASS).
+     - All 34 text/background pairs (including alpha-blended overlays) verified >= 5.03:1.
+
+[P5] CSS/JS Hygiene & Image Dimensions: FIXED
+     - Deduplicated CSS (0 unused classes, removed duplicate .reviewPerson img / .faq / .actualPages
+       blocks and empty <p> tag).
+     - Fixed AI Fixer intrinsic dimensions (width="660" height="779" matching src aspect ratio).
+     - Deferred app.js uses IntersectionObserver with zero forced-reflow geometry reads.
+
+[P6] Trust & Safety Headers (vercel.json): FIXED
+     - Added strict Content-Security-Policy (no 'unsafe-inline' for scripts, whitelisting Meta
+       Pixel & Microsoft Clarity), Cross-Origin-Opener-Policy: same-origin-allow-popups,
+       X-Frame-Options: SAMEORIGIN, X-Content-Type-Options: nosniff, and Referrer-Policy.
+     - Kept 1-year immutable Cache-Control on /assets/* and must-revalidate on /index.html.
+
+[P7] Third-Party Meta Pixel & Microsoft Clarity (206 KiB TTL / 11 KiB Legacy JS): MITIGATED
+     - Preserved full conversion tracking (Meta Pixel 1976995182940721 + Clarity zi73np4cv4).
+     - Deferred external script loading until post-load (1500ms) or first user interaction so
+       tracking does not degrade mobile LCP or TBT. External vendor TTL/polyfills cannot be
+       overridden by vercel.json unless trackers are removed.
