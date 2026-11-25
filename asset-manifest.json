@@ -1,0 +1,541 @@
+{
+  "hero": [
+    {
+      "file": "technician-hero-360.ee1787d4e1.webp",
+      "width": 360,
+      "height": 230,
+      "bytes": 19816,
+      "ssim": 0.958
+    },
+    {
+      "file": "technician-hero-480.1fe928a512.webp",
+      "width": 480,
+      "height": 306,
+      "bytes": 29170,
+      "ssim": 0.9638
+    },
+    {
+      "file": "technician-hero-660.b30bed9d8f.webp",
+      "width": 660,
+      "height": 421,
+      "bytes": 44252,
+      "ssim": 0.9681
+    },
+    {
+      "file": "technician-hero-960.32ed8f8a80.webp",
+      "width": 960,
+      "height": 612,
+      "bytes": 79618,
+      "ssim": 1.0
+    }
+  ],
+  "bundle": [
+    {
+      "file": "six-ebook-bundle-320.0b8f8baeb4.webp",
+      "width": 320,
+      "height": 180,
+      "bytes": 16486,
+      "ssim": 0.9541
+    },
+    {
+      "file": "six-ebook-bundle-416.22f7a15704.webp",
+      "width": 416,
+      "height": 234,
+      "bytes": 24530,
+      "ssim": 0.9627
+    },
+    {
+      "file": "six-ebook-bundle-608.77ba99d250.webp",
+      "width": 608,
+      "height": 342,
+      "bytes": 42776,
+      "ssim": 0.9654
+    },
+    {
+      "file": "six-ebook-bundle-800.9a65bb0435.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 63826,
+      "ssim": 0.974
+    }
+  ],
+  "cover_ac": [
+    {
+      "file": "ac-ebook-320.cd77c440ab.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 17956,
+      "ssim": 0.9709
+    },
+    {
+      "file": "ac-ebook-384.a7c56bdce0.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 23052,
+      "ssim": 0.9728
+    },
+    {
+      "file": "ac-ebook-480.3502b22780.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 32254,
+      "ssim": 0.9739
+    },
+    {
+      "file": "ac-ebook-640.f1c0d4a8c8.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 54134,
+      "ssim": 1.0
+    }
+  ],
+  "cover_refrigerator": [
+    {
+      "file": "refrigerator-ebook-320.2e4edb1210.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 18366,
+      "ssim": 0.9741
+    },
+    {
+      "file": "refrigerator-ebook-384.8c36a232e9.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 24142,
+      "ssim": 0.9766
+    },
+    {
+      "file": "refrigerator-ebook-480.50ac478f90.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 32948,
+      "ssim": 0.9787
+    },
+    {
+      "file": "refrigerator-ebook-640.b0651cc554.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 54962,
+      "ssim": 1.0
+    }
+  ],
+  "cover_washing-machine": [
+    {
+      "file": "washing-machine-ebook-320.de60bf3dad.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 22160,
+      "ssim": 0.9721
+    },
+    {
+      "file": "washing-machine-ebook-384.1e2f910a84.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 29358,
+      "ssim": 0.9752
+    },
+    {
+      "file": "washing-machine-ebook-480.1fc4f1033b.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 40242,
+      "ssim": 0.9753
+    },
+    {
+      "file": "washing-machine-ebook-640.505fc0fb1c.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 65294,
+      "ssim": 1.0
+    }
+  ],
+  "cover_ro": [
+    {
+      "file": "ro-ebook-320.ddf04c86ba.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 21464,
+      "ssim": 0.9723
+    },
+    {
+      "file": "ro-ebook-384.70f1f46b56.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 28592,
+      "ssim": 0.9749
+    },
+    {
+      "file": "ro-ebook-480.50742f861a.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 39084,
+      "ssim": 0.9774
+    },
+    {
+      "file": "ro-ebook-640.0ca88cac58.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 64692,
+      "ssim": 1.0
+    }
+  ],
+  "cover_water-geyser": [
+    {
+      "file": "water-geyser-ebook-320.502ee11fc1.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 18100,
+      "ssim": 0.9732
+    },
+    {
+      "file": "water-geyser-ebook-384.d618c92161.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 23534,
+      "ssim": 0.9764
+    },
+    {
+      "file": "water-geyser-ebook-480.ab923271dd.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 32526,
+      "ssim": 0.9788
+    },
+    {
+      "file": "water-geyser-ebook-640.cd92cc10a2.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 52036,
+      "ssim": 1.0
+    }
+  ],
+  "cover_air-cooler": [
+    {
+      "file": "air-cooler-ebook-320.9ef88a0761.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 21096,
+      "ssim": 0.9663
+    },
+    {
+      "file": "air-cooler-ebook-384.65e55e7f5d.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 27598,
+      "ssim": 0.9694
+    },
+    {
+      "file": "air-cooler-ebook-480.519b229b6f.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 36974,
+      "ssim": 0.9719
+    },
+    {
+      "file": "air-cooler-ebook-640.301be2ed34.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 60780,
+      "ssim": 1.0
+    }
+  ],
+  "sample_01-1-ac-repairing": [
+    {
+      "file": "01-1-ac-repairing-480.596878d8c0.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 77634,
+      "ssim": 1.0
+    },
+    {
+      "file": "01-1-ac-repairing-768.018259ce51.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 169918,
+      "ssim": 1.0
+    }
+  ],
+  "sample_01-2-ac-repairing": [
+    {
+      "file": "01-2-ac-repairing-480.823a8f78a2.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 81628,
+      "ssim": 1.0
+    },
+    {
+      "file": "01-2-ac-repairing-768.9fd35b462d.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 174222,
+      "ssim": 1.0
+    }
+  ],
+  "sample_02-1-refrigerator": [
+    {
+      "file": "02-1-refrigerator-480.171e7bb24c.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 77634,
+      "ssim": 1.0
+    },
+    {
+      "file": "02-1-refrigerator-768.3cfa96d1cd.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 166450,
+      "ssim": 1.0
+    }
+  ],
+  "sample_02-2-refrigerator": [
+    {
+      "file": "02-2-refrigerator-480.744e75b5da.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 80756,
+      "ssim": 1.0
+    },
+    {
+      "file": "02-2-refrigerator-768.50eb4efcce.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 171796,
+      "ssim": 1.0
+    }
+  ],
+  "sample_03-1-washing-machine": [
+    {
+      "file": "03-1-washing-machine-480.5ff005f235.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 101464,
+      "ssim": 1.0
+    },
+    {
+      "file": "03-1-washing-machine-768.3cbbeae839.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 219228,
+      "ssim": 1.0
+    }
+  ],
+  "sample_03-2-washing-machine": [
+    {
+      "file": "03-2-washing-machine-480.189cffad6d.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 85922,
+      "ssim": 1.0
+    },
+    {
+      "file": "03-2-washing-machine-768.dbef6e4b70.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 183888,
+      "ssim": 1.0
+    }
+  ],
+  "sample_04-1-ro-water-purifier": [
+    {
+      "file": "04-1-ro-water-purifier-480.3148159914.webp",
+      "width": 480,
+      "height": 688,
+      "bytes": 71228,
+      "ssim": 1.0
+    },
+    {
+      "file": "04-1-ro-water-purifier-768.b423b6faf2.webp",
+      "width": 768,
+      "height": 1101,
+      "bytes": 149746,
+      "ssim": 1.0
+    }
+  ],
+  "sample_04-2-ro-water-purifier": [
+    {
+      "file": "04-2-ro-water-purifier-480.4f3a1088b7.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 84156,
+      "ssim": 1.0
+    },
+    {
+      "file": "04-2-ro-water-purifier-768.56d3af8aaa.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 183530,
+      "ssim": 1.0
+    }
+  ],
+  "sample_05-1-water-geyser": [
+    {
+      "file": "05-1-water-geyser-480.2fb110df00.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 80694,
+      "ssim": 1.0
+    },
+    {
+      "file": "05-1-water-geyser-768.18cf9b938d.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 169934,
+      "ssim": 1.0
+    }
+  ],
+  "sample_05-2-water-geyser": [
+    {
+      "file": "05-2-water-geyser-480.fb39bd01dc.webp",
+      "width": 480,
+      "height": 720,
+      "bytes": 77994,
+      "ssim": 1.0
+    },
+    {
+      "file": "05-2-water-geyser-768.9a850db3d6.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 168660,
+      "ssim": 1.0
+    }
+  ],
+  "sample_06-1-air-cooler": [
+    {
+      "file": "06-1-air-cooler-480.90c5df7eae.webp",
+      "width": 480,
+      "height": 730,
+      "bytes": 94136,
+      "ssim": 1.0
+    },
+    {
+      "file": "06-1-air-cooler-768.8eeb7936a1.webp",
+      "width": 768,
+      "height": 1167,
+      "bytes": 202536,
+      "ssim": 1.0
+    }
+  ],
+  "sample_06-2-air-cooler": [
+    {
+      "file": "06-2-air-cooler-480.a80911d3a3.webp",
+      "width": 480,
+      "height": 655,
+      "bytes": 75000,
+      "ssim": 1.0
+    },
+    {
+      "file": "06-2-air-cooler-768.18c2ddbc4c.webp",
+      "width": 768,
+      "height": 1048,
+      "bytes": 163528,
+      "ssim": 1.0
+    }
+  ],
+  "avatar_ramesh": [
+    {
+      "file": "ramesh-profile-64.b6b9f43dc9.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2616,
+      "ssim": 1.0
+    }
+  ],
+  "avatar_gopi": [
+    {
+      "file": "gopi-profile-64.64a1a69d7f.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2672,
+      "ssim": 1.0
+    }
+  ],
+  "avatar_suresh": [
+    {
+      "file": "suresh-profile-64.4ba9d128e7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2632,
+      "ssim": 1.0
+    }
+  ],
+  "avatar_srinivas": [
+    {
+      "file": "srinivas-profile-64.00bd0bea69.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2492,
+      "ssim": 1.0
+    }
+  ],
+  "avatar_sunitha": [
+    {
+      "file": "sunitha-profile-64.05f54a13ed.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2526,
+      "ssim": 1.0
+    }
+  ],
+  "avatar_padma": [
+    {
+      "file": "padma-profile-64.40a6471e30.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2658,
+      "ssim": 1.0
+    }
+  ],
+  "ai_fixer": [
+    {
+      "file": "homefix-ai-fixer-360.30c32efb14.webp",
+      "width": 360,
+      "height": 425,
+      "bytes": 18768,
+      "ssim": 0.98
+    },
+    {
+      "file": "homefix-ai-fixer-480.f717f6a3e1.webp",
+      "width": 480,
+      "height": 566,
+      "bytes": 28154,
+      "ssim": 0.9839
+    },
+    {
+      "file": "homefix-ai-fixer-660.38bb9c12b3.webp",
+      "width": 660,
+      "height": 779,
+      "bytes": 42184,
+      "ssim": 0.9867
+    },
+    {
+      "file": "homefix-ai-fixer-1024.ce4a476362.webp",
+      "width": 1024,
+      "height": 1208,
+      "bytes": 82454,
+      "ssim": 1.0
+    }
+  ],
+  "certificate": [
+    {
+      "file": "course-certificate-360.944ac789ca.webp",
+      "width": 360,
+      "height": 237,
+      "bytes": 10810,
+      "ssim": 0.976
+    },
+    {
+      "file": "course-certificate-480.01ea2acffa.webp",
+      "width": 480,
+      "height": 316,
+      "bytes": 15010,
+      "ssim": 0.978
+    },
+    {
+      "file": "course-certificate-640.d720bbb2e8.webp",
+      "width": 640,
+      "height": 421,
+      "bytes": 25724,
+      "ssim": 1.0
+    }
+  ]
+}
